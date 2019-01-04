@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.bk.ExcelConverter">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="220" width="542" height="264"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="c003d" layout-manager="FormLayout">
+        <rowspec value="center:15px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:34px:noGrow"/>
+        <rowspec value="top:15px:noGrow"/>
+        <rowspec value="center:34px:noGrow"/>
+        <colspec value="fill:220px:noGrow"/>
+        <colspec value="left:6dlu:noGrow"/>
+        <colspec value="fill:155px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:100px:noGrow"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="130"/>
+            <preferred-size width="500" height="130"/>
+            <maximum-size width="500" height="130"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11504709"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b47a1" class="javax.swing.JLabel" binding="labelName">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="140" height="16"/>
+              </grid>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <text value="Enter the name of the column here:"/>
+            </properties>
+          </component>
+          <component id="b728f" class="javax.swing.JTextField" binding="text_columnName">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="132" height="30"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value=""/>
+              <toolTipText value="Column Name"/>
+            </properties>
+          </component>
+          <component id="db91d" class="javax.swing.JButton" binding="convertButtonColumnName">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="169" height="30"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Convert"/>
+            </properties>
+          </component>
+          <component id="2f644" class="javax.swing.JLabel" binding="labelName1">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="140" height="16"/>
+              </grid>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <text value="Enter the number of the column here:"/>
+            </properties>
+          </component>
+          <component id="1f874" class="javax.swing.JTextField" binding="text_numberColumn">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="132" height="30"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value=""/>
+              <toolTipText value="Column Number"/>
+            </properties>
+          </component>
+          <component id="56d2" class="javax.swing.JButton" binding="convertButtonNumberColumn">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="169" height="30"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Convert"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="4196d" class="javax.swing.JLabel" binding="window_program_name">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="162" height="19"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Excel Column Name Converter"/>
+        </properties>
+      </component>
+      <component id="e4a03" class="javax.swing.JLabel" binding="result_label">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11504709"/>
+          <enabled value="true"/>
+          <text value="RESULT:"/>
+        </properties>
+      </component>
+      <component id="30334" class="javax.swing.JLabel" binding="result_text_result">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
