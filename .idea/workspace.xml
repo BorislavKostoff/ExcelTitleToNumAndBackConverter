@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6715d597-0fe2-42d6-9a8b-369f18b0e9eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExcelColumnNameConverter/com/bk/ExcelConverter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExcelColumnNameConverter/com/bk/ExcelConverter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExcelColumnNameConverter/com/bk/ExcelConverter$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExcelColumnNameConverter/com/bk/ExcelConverter$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExcelColumnNameConverter/com/bk/ExcelConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExcelColumnNameConverter/com/bk/ExcelConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bk/ExcelConverter.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bk/ExcelConverter.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bk/ExcelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bk/ExcelConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bk/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +70,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/bk/ExcelConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="289">
               <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="237" />
     <option name="y" value="25" />
     <option name="width" value="1031" />
@@ -142,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="339" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546606811106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546607085454" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,7 +258,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bk/ExcelConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="289">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
