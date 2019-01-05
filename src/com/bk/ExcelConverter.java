@@ -3,12 +3,8 @@ package com.bk;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Scanner;
 
 public class ExcelConverter extends JFrame {
-
-
-    Scanner sc = new Scanner(System.in);
 
     Converter conv = new Converter();
 
@@ -30,25 +26,19 @@ public class ExcelConverter extends JFrame {
         setSize(520,250);
         setContentPane(panel1);
 
-
-
-
         convertButtonColumnName.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                result_text_result.setText(String.valueOf(conv.titleToNumber("ABC")));
-
+                result_text_result.setText(String.valueOf(conv.titleToNumber(text_columnName.getText())));
 
             }
         });
         convertButtonNumberColumn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                result_text_result.setText(conv.numberToTitle(123));
+                result_text_result.setText(conv.numberToTitle(Integer.parseInt(text_numberColumn.getText())));
 
             }
         });
-
-
     }
 }
