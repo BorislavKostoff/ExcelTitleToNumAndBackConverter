@@ -6,8 +6,8 @@ public class Main {
         new ExcelConverter().setVisible(true);
 
         Converter conv = new Converter();
-        System.out.println(conv.titleToNumber("ABC"));
-        System.out.println(conv.numberToTitle(123));
+        System.out.println(conv.titleToNumber("abc"));
+        System.out.println(conv.numberToTitle(731));
 
     }
 

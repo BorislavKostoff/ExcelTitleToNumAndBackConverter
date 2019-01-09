@@ -29,7 +29,18 @@ public class ExcelConverter extends JFrame {
         convertButtonColumnName.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                result_text_result.setText(String.valueOf(conv.titleToNumber(text_columnName.getText())));
+                for (int i = 0; i < text_columnName.getText().length(); i++) {
+                    char letter = text_columnName.getText().charAt(i);
+
+                    if (!Character.isLetter(letter)) {
+                        result_text_result.setText("You must enter a valid letter!");
+                        break;
+                    } else {
+                        result_text_result.setText(String.valueOf(conv.titleToNumber(text_columnName.getText())));
+                    }
+                }
+
+
 
             }
         });
