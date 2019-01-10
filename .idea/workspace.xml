@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6715d597-0fe2-42d6-9a8b-369f18b0e9eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExcelColumnNameConverter/com/bk/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExcelColumnNameConverter/com/bk/Converter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bk/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bk/Converter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bk/ExcelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bk/ExcelConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bk/Main.java" afterDir="false" />
@@ -32,14 +30,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="form" value="3" />
-          <entry key="java" value="1756" />
+          <entry key="java" value="2002" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="3" />
-          <entry key="JAVA" value="1756" />
+          <entry key="JAVA" value="2002" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -64,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/bk/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -73,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bk/ExcelConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="38" column="114" selection-start-line="38" selection-start-column="114" selection-end-line="38" selection-end-column="114" />
+            <state relative-caret-position="867">
+              <caret line="56" column="100" selection-start-line="56" selection-start-column="100" selection-end-line="56" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bk/Converter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -113,9 +111,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/bk/StringToInt.java" />
         <option value="$PROJECT_DIR$/src/com/bk/ExcelConverter.form" />
+        <option value="$PROJECT_DIR$/src/com/bk/Converter.java" />
         <option value="$PROJECT_DIR$/src/com/bk/Main.java" />
         <option value="$PROJECT_DIR$/src/com/bk/ExcelConverter.java" />
-        <option value="$PROJECT_DIR$/src/com/bk/Converter.java" />
       </list>
     </option>
   </component>
@@ -200,7 +198,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.279732" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.279732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39865997" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -240,15 +238,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bk/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bk/ExcelConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="114" selection-start-line="38" selection-start-column="114" selection-end-line="38" selection-end-column="114" />
+        <state relative-caret-position="867">
+          <caret line="56" column="100" selection-start-line="56" selection-start-column="100" selection-end-line="56" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -257,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bk/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>

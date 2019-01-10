@@ -22,17 +22,23 @@ class Converter {
 
     }
 
-    public String numberToTitle(int n) {
-        if (n == 0) {
-            throw new IllegalArgumentException("Input is not valid!");
+    public String numberToTitle(String s) {
+        for (int i = 0; i < s.length(); i++) {
+            char digit = s.charAt(i);
+            if (!Character.isDigit(digit)) {
+                System.out.println("You must enter a valid digit!");
+            }
         }
-        String s = "";
+
+        String result = "";
+        int n = Integer.parseInt(s);
         while (n > 0) {
+
             n--;
-            s = String.valueOf((char) (n % 26 + 'A')) + s;
+            result = String.valueOf((char) (n % 26 + 'A')) + result;
             n /= 26;
         }
-        return s;
+        return result;
     }
 
 }

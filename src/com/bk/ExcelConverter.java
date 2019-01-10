@@ -47,7 +47,18 @@ public class ExcelConverter extends JFrame {
         convertButtonNumberColumn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                result_text_result.setText(conv.numberToTitle(Integer.parseInt(text_numberColumn.getText())));
+                for (int i = 0; i < text_numberColumn.getText().length(); i++) {
+                    char digit = text_numberColumn.getText().charAt(i);
+
+                    if (!Character.isDigit(digit)) {
+                        result_text_result.setText("You must enter a valid digit!");
+                        break;
+                    } else {
+                        result_text_result.setText(conv.numberToTitle(text_numberColumn.getText()));
+                    }
+
+                }
+
 
             }
         });

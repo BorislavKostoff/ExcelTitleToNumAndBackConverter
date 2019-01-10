@@ -7,7 +7,7 @@ public class Main {
 
         Converter conv = new Converter();
         System.out.println(conv.titleToNumber("abc"));
-        System.out.println(conv.numberToTitle(731));
+        System.out.println(conv.numberToTitle("731"));
 
     }
 
