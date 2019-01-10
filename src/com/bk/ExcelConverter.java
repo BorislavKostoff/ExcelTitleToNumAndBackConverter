@@ -47,6 +47,9 @@ public class ExcelConverter extends JFrame {
         convertButtonNumberColumn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+                if (text_numberColumn.getText().length() > 18) {
+                    result_text_result.setText("You may enter 18 digits max!");
+                }
                 for (int i = 0; i < text_numberColumn.getText().length(); i++) {
                     char digit = text_numberColumn.getText().charAt(i);
 

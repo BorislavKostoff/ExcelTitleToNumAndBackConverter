@@ -2,7 +2,7 @@ package com.bk;
 
 class Converter {
 
-    public int titleToNumber(String s) {
+    public long titleToNumber(String s) {
         s = s.toUpperCase();
 
         for (int i = 0; i < s.length(); i++) {
@@ -10,28 +10,32 @@ class Converter {
 
             if (!Character.isLetter(letter)) {
                 System.out.println("You must enter a valid letter!");
-
+break;
             }
         }
-        int n = s.length();
-        int result = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            result += Math.pow(26, n - i - 1) * (s.charAt(i) - 64);
+
+        long result = 0;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            result += Math.pow(26, s.length() - i - 1) * (s.charAt(i) - 64);
         }
         return result;
 
     }
 
     public String numberToTitle(String s) {
+        if (s.length() > 18) {
+            System.out.println("You may enter 18 digits max!");
+        }
         for (int i = 0; i < s.length(); i++) {
             char digit = s.charAt(i);
             if (!Character.isDigit(digit)) {
                 System.out.println("You must enter a valid digit!");
+                break;
             }
         }
 
         String result = "";
-        int n = Integer.parseInt(s);
+        long n = Long.parseLong(s);
         while (n > 0) {
 
             n--;
