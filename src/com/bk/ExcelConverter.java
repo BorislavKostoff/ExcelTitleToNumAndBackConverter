@@ -25,6 +25,7 @@ public class ExcelConverter extends JFrame {
         setLocationRelativeTo(this);
         setSize(520,250);
         setContentPane(panel1);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         convertButtonColumnName.addActionListener(new ActionListener() {
             @Override
