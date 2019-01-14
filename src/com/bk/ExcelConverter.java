@@ -35,6 +35,8 @@ public class ExcelConverter extends JFrame {
                     if (!Character.isLetter(letter)) {
                         result_text_result.setText("You must enter a valid letter!");
                         break;
+                    } else if (text_columnName.getText().length() > 20) {
+                        result_text_result.setText("You may enter 20 letters max!");
                     } else {
                         result_text_result.setText(String.valueOf(conv.titleToNumber(text_columnName.getText())));
                     }
@@ -47,14 +49,15 @@ public class ExcelConverter extends JFrame {
         convertButtonNumberColumn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                if (text_numberColumn.getText().length() > 18) {
-                    result_text_result.setText("You may enter 18 digits max!");
-                }
+
                 for (int i = 0; i < text_numberColumn.getText().length(); i++) {
                     char digit = text_numberColumn.getText().charAt(i);
 
                     if (!Character.isDigit(digit)) {
                         result_text_result.setText("You must enter a valid digit!");
+                        break;
+                    } else if (text_numberColumn.getText().length() > 20) {
+                        result_text_result.setText("You may enter 20 digits max!");
                         break;
                     } else {
                         result_text_result.setText(conv.numberToTitle(text_numberColumn.getText()));

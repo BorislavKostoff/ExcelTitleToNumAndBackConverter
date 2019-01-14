@@ -1,5 +1,7 @@
 package com.bk;
 
+import java.math.BigInteger;
+
 class Converter {
 
     public long titleToNumber(String s) {
@@ -10,7 +12,10 @@ class Converter {
 
             if (!Character.isLetter(letter)) {
                 System.out.println("You must enter a valid letter!");
-break;
+                break;
+            } else if (s.length() > 20) {
+                System.out.println("You may enter 20 letters max!");
+                break;
             }
         }
 
@@ -23,13 +28,14 @@ break;
     }
 
     public String numberToTitle(String s) {
-        if (s.length() > 18) {
-            System.out.println("You may enter 18 digits max!");
-        }
+
         for (int i = 0; i < s.length(); i++) {
             char digit = s.charAt(i);
             if (!Character.isDigit(digit)) {
                 System.out.println("You must enter a valid digit!");
+                break;
+            } else if (s.length() > 20) {
+                System.out.println("You may enter 20 digits max!");
                 break;
             }
         }
