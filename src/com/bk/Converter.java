@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 class Converter {
 
-    public long titleToNumber(String s) {
+    public BigInteger titleToNumber(String s) {
         s = s.toUpperCase();
 
         for (int i = 0; i < s.length(); i++) {
@@ -19,9 +19,9 @@ class Converter {
             }
         }
 
-        long result = 0;
+        BigInteger result = BigInteger.valueOf(0);
         for (int i = s.length() - 1; i >= 0; i--) {
-            result += Math.pow(26, s.length() - i - 1) * (s.charAt(i) - 64);
+            result = result.add(BigInteger.valueOf((long)Math.pow(26, s.length() - i - 1)).multiply(BigInteger.valueOf((long)s.charAt(i) - 64)));
         }
         return result;
 
