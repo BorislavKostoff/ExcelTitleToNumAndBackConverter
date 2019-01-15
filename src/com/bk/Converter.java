@@ -41,12 +41,13 @@ class Converter {
         }
 
         String result = "";
-        long n = Long.parseLong(s);
-        while (n > 0) {
+        BigInteger n = new BigInteger(s);
+        while (n.compareTo(BigInteger.ZERO) > 0) {
 
-            n--;
-            result = String.valueOf((char) (n % 26 + 'A')) + result;
-            n /= 26;
+            n = n.subtract(BigInteger.valueOf(1));
+
+            result = String.valueOf((char) n.mod(BigInteger.valueOf(26)).add(BigInteger.valueOf(65)).intValue()) + result;
+            n = n.divide(BigInteger.valueOf(26));
         }
         return result;
     }
